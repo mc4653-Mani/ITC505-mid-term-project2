@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Binary Adventure — 4-level limit</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Binary Adventure — Escape from Planet X</h1>
+  </header>
+
+  <main>
+    <section id="scene">
+      <img id="sceneImage" src="https://via.placeholder.com/700x350?text=Planet+X" alt="Scene image" />
+      <div id="text" role="status"></div>
+      <div id="choices" aria-live="polite"></div>
+      <div id="meta"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Last updated: <span id="lastModified"></span></p>
+  </footer>
+
+  <script>
+    // lastModified footer script required by your assignment
+    var x = document.lastModified;
+    document.getElementById('lastModified').textContent = x;
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
